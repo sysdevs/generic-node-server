@@ -3,7 +3,7 @@ This project aims at creating a TCP server that will automatically handle variou
 
 ## Example
 Here's a simple echo server implementation
-```
+```javascript
 const network = require('network')
 const server = new network.Server()
 
