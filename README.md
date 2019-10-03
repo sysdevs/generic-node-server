@@ -19,3 +19,14 @@ await server.bind(1234)
 
 await server.unbind()
 ```
+## Events
+Server
+    * 'session-connected' - a new connection has been accepted
+    * 'session-disconnected' - a connection has been closed
+    * 'session-error' - an error was produced by a session's socket
+    * 'session-data' - data was received
+    * 'session-timeout' - no incoming/outgoing traffic had happened within a timeframe
+
+## License
+GNU General Public License v3.0
+See LICENSE
